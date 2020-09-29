@@ -1,9 +1,82 @@
-/*p
+body
 {
-    color: blue;
+	background-color: green;
+	border: 5px black groove;
+	margin: 0;
 }
-*/
+
+section
+{
+	margin: 5px;
+	background-color: white;
+	height: 900px;
+	border: 1px black groove;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	text-align: justify;
+}
+
+header
+{
+	background-color: green;
+	text-align: center;
+}
+
+/*Gestion du menu du haut*/
+nav ul
+{
+  list-style-type: none;
+}
+
+nav li
+{
+  float: left;
+  width: 20%;         /* Modifier cette valeur en fonction du nombre d'éléments dans le menu */
+  text-align: center;
+}
+
+nav ul::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav
+{
+  width: 100%;
+  margin: 0 auto;
+  /*
+  background-color: grey;
+  position: sticky;
+  top: 0px;*/
+}
+
+nav a
+{
+  display: bock;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+
+nav a:hover
+{
+  color: orange;
+  border-bottom: 2px solid gold;
+}
+
+
+/*Fin de gestion du menu du haut*/
+
 strong
 {
-    color: red;
+    color: green;
 }
+
+hr
+{
+  color: black;
+  width: 70%;
