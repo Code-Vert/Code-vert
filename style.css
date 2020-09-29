@@ -23,6 +23,13 @@ header
 	text-align: center;
 }
 
+a
+{
+  display: bock;
+  text-decoration: none;
+  color: black;
+}
+
 /*Gestion du menu du haut*/
 nav ul
 {
